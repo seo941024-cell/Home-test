@@ -1,9 +1,10 @@
 from tkinter import ttk
+import tkinter as tk
 
-root = Tk()
+root = tk.Tk()
 root.title("combobox")
 root.geometry("300x200+100+100")
-root.resizable(True, True)
+root.resizable(True, True)          
 
 items = [i+1 for i in range(0,100)]
 
